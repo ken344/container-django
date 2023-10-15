@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="25c8bb80-de8f-440b-a376-e3972b332b0f" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/django/script/make_django_project.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysql/docker-entrypoint-initdb.d/01-sql-scripts-init.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/container-django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/container-django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/django/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/django/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysql/my.conf" beforeDir="false" afterPath="$PROJECT_DIR$/mysql/mycnf/my.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697326000826</updated>
       <workItem from="1697326005800" duration="312000" />
-      <workItem from="1697327108189" duration="26932000" />
+      <workItem from="1697327108189" duration="27462000" />
     </task>
     <servers />
   </component>
