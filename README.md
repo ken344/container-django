@@ -1,5 +1,6 @@
 # container-django
 Build django and mysql with docker-compose.
+
 djangoデフォルトのsqlite3ではなく、mysqlをContainerで起動し使うようにしている。
 
 ## preparation
