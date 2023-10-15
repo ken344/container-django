@@ -9,10 +9,12 @@ services:
     ports:
       - "8000:8000"
     volumes:
-      - ${SRC_PATH}:/work
+      - ./django/django_project:/django_project
     depends_on:
       - mysql
     tty: true
+    networks:
+      - mysql-net
 
   mysql:
     image: mysql:8.0.28
@@ -27,7 +29,7 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
       TZ: "Asia/Tokyo"
     volumes:
-      - ./mysql/my.cnf:/etc/mysql/conf.d/my.cnf
+      - ./mysql/mycnf:/etc/mysql/conf.d/my.cnf
       - ./mysql/db-data:/var/lib/mysql
       - ./mysql/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
     networks:
