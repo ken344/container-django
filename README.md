@@ -32,6 +32,12 @@ DATABASES = {
 ## Containerへログイン
 - docker exec -it (contqainer ID or Name) bash
 
+## マイグレーションの実行
+- python manage.py migrate
+  - マイグレーション実行
+- python manage.py showmigrations
+  - マイグレーション状態確認
+
 ### 接続確認
 - python manage.py dbshell
 - (manage.pyのあるディレクトリで実行)
